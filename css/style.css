@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-logo-if {
+    display: grid;
+    grid-template-areas:
+        "c1 bl1 bl2"
+        "bl3 bl4 . "
+        "bl5 bl6 bl7"
+        "bl8 bl9 . ";
+
+    gap: 1px;
+    justify-content: center;
+}
+
+.if {
+    font-size: 13px;
+    margin-top: 9px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+    border-radius: 4.2px;
+    height: 20px;
+    width: 20px;
+    background-color: #70c836;
+}
+
+.circulo {
+    grid-area: c1;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+div.b1 {
+    grid-area: bl1;
+
+}
+
+div.b2 {
+    grid-area: bl2;
+}
+
+div.b3 {
+    grid-area: bl3;
+}
+
+div.b4 {
+    grid-area: bl4;
+}
+
+.b5 {
+    grid-area: bl5;
+
+}
+
+.b6 {
+    grid-area: bl6;
+
+}
+
+.b7 {
+    grid-area: bl7;
+
+
+}
+
+.b8 {
+    grid-area: bl8;
+
+}
+
+.b9 {
+    grid-area: bl9;
+}
+
+div.container-logo-lab-fis {
+    display: grid;
+    grid-template-areas:
+        "b1 .  b9 ba"
+        "b2 .  b8 . "
+        "b3 .  b7 bb"
+        "b4 b5 b6 . ";
+    gap: 1.05px;
+    justify-content: center;
+}
+
+.bloco1,
+.bloco2,
+.bloco3,
+.bloco4,
+.bloco5,
+.bloco6,
+.bloco7,
+.bloco8,
+.bloco9,
+.bloco10,
+.bloco11,
+.bloco12 {
+    height: 21.5px;
+    width: 20px;
+    border-radius: 4.2px;
+    background-color: #65cc33;
+}
+
+.bloco1 {
+    grid-area: b1;
+}
+
+.bloco2 {
+    grid-area: b2;
+}
+
+.bloco3 {
+    grid-area: b3;
+}
+
+.bloco4 {
+    grid-area: b4;
+}
+
+.bloco5 {
+    grid-area: b5;
+}
+
+.bloco6 {
+    grid-area: b6;
+}
+
+.bloco7 {
+    grid-area: b7;
+}
+
+.bloco8 {
+    grid-area: b8;
+}
+
+.bloco9 {
+    grid-area: b9;
+}
+
+.bloco10 {
+    grid-area: ba;
+}
+
+.bloco11 {
+    grid-area: bb;
+}
